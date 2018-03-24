@@ -35,8 +35,8 @@ dotfiles config --local status.showUntrackedFiles no
 ## Tools I use
 ### Terminal
 - [iTerm2](https://github.com/gnachman/iTerm2): The new default terminal for macOS
-    - Tomorrow Night Bright
-    - DejaVu Sans Mono, 12pt
+    - Theme: Tomorrow Night Bright
+    - Font: DejaVu Sans Mono, 12pt
 - [zsh](http://www.zsh.org)
 - [Oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
@@ -55,6 +55,8 @@ dotfiles config --local status.showUntrackedFiles no
     - highlight-selected
 ### iOS Dev
 - [Xcode](https://developer.apple.com/xcode/): duh...
+    - Theme: Civic
+    - Font: SF Mono Regular, 12pt
 - [SimSim](https://github.com/dsmelov/simsim): Open / clear iOS simulator files easily
 - [DB Browser for SQLite](https://github.com/sqlitebrowser/sqlitebrowser): SQLite browser
 - [Iconizer](https://github.com/raphaelhanneken/iconizer): Xcode image assets generator
