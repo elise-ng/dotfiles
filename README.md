@@ -19,7 +19,7 @@
 - [Atom](https://github.com/atom/atom): RIP Sublime Text
 - [SourceTree](https://www.sourcetreeapp.com): Git client
 ### iOS Development
-- [Xcode](https://developer.apple.com/xcode/)
+- [Xcode](https://developer.apple.com/xcode/): duh...
 - [SimSim](https://github.com/dsmelov/simsim): Shortcuts for managing iOS simulators
 - [DB Browser for SQLite](https://github.com/sqlitebrowser/sqlitebrowser): SQLite browser
 - [Iconizer](https://github.com/raphaelhanneken/iconizer): Xcode image assets generator
