@@ -1,7 +1,7 @@
 # dotfiles
 
 ## Setup
-```
+```sh
 git init --bare $HOME/.dotfiles
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 dotfiles config --local status.showUntrackedFiles no
@@ -10,7 +10,7 @@ echo "alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 ## Usage
 Basically like git
-```
+```sh
 dotfiles status
 dotfiles add .zshrc
 dotfiles commit -m "Update .zshrc"
@@ -18,7 +18,7 @@ dotfiles push
 ```
 
 ## Bootstrapping new system
-```
+```sh
 echo ".cfg" >> .gitignore
 git clone --bare git@github.com:chihimng/dotfiles.git $HOME/.dotfiles
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
