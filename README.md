@@ -35,6 +35,8 @@ dotfiles config --local status.showUntrackedFiles no
 ## Tools I use
 ### Terminal
 - [iTerm2](https://github.com/gnachman/iTerm2): The new default terminal for macOS
+    - Tomorrow Night Bright
+    - DejaVu Sans Mono, 12pt
 - [zsh](http://www.zsh.org)
 - [Oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
