@@ -1,0 +1,14 @@
+[user]
+	name = Elliot Ng
+	email = chihimng.io@gmail.com
+[core]
+	excludesfile = /Users/chihim/.gitignore_global
+	editor = atom --wait
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/chihim/.stCommitMsg
