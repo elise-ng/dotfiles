@@ -15,17 +15,23 @@
 - [Oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
-### General Coding
+### Text Editor
 - [Atom](https://github.com/atom/atom): RIP Sublime Text
-- [SourceTree](https://www.sourcetreeapp.com): Git client
-### iOS Development
+    - minimap: map on right hand side like sublime
+    - linter: don't ever code without linting
+    - atom-ternjs: Autocomplete provider for js
+    - atom-beautify: just in case
+    - file-icons
+    - script
+### iOS Dev
 - [Xcode](https://developer.apple.com/xcode/): duh...
 - [SimSim](https://github.com/dsmelov/simsim): Shortcuts for managing iOS simulators
 - [DB Browser for SQLite](https://github.com/sqlitebrowser/sqlitebrowser): SQLite browser
 - [Iconizer](https://github.com/raphaelhanneken/iconizer): Xcode image assets generator
-### Backend Development
+### Backend Dev
 - [Postman](https://www.getpostman.com): Web api testing / documentation
 - [Sequel Pro](https://github.com/sequelpro/sequelpro): MySQL browser
 - [PSequel](http://www.psequel.com): PostgreSQL browser
 ### Misc.
+- [SourceTree](https://www.sourcetreeapp.com): Git client
 - [Rambox](https://github.com/saenzramiro/rambox): Open Source mini-browser for combining messengers
