@@ -1,5 +1,23 @@
 # dotfiles
 
+## Usage
+Basically like git
+```
+dotfiles status
+dotfiles add .zshrc
+dotfiles commit -m "Update .zshrc"
+dotfiles push
+```
+
+## Bootstrapping new system
+```
+echo ".cfg" >> .gitignore
+git clone --bare git@github.com:chihimng/dotfiles.git $HOME/.dotfiles
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+dotfiles checkout
+dotfiles config --local status.showUntrackedFiles no
+```
+
 ## Environment
 - macOS High Sierra (10.13.x)
 
