@@ -26,11 +26,9 @@ dotfiles checkout
 dotfiles config --local status.showUntrackedFiles no
 ```
 
-## Environment
-- macOS High Sierra (10.13.x)
-
 ## My Setup
 - MacBook Pro 15" 2016
+    - macOS High Sierra (10.13.x)
 - HHKB Pro 2
 - Logitech G502
 
