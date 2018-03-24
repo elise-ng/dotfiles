@@ -5,7 +5,7 @@
 
 ## My Setup
 - MacBook Pro 15" 2016
-- Happy Hacking KeyBoard Pro 2
+- HHKB Pro 2
 - Logitech G502
 
 ## Tools I use
