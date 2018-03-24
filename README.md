@@ -57,3 +57,6 @@ dotfiles config --local status.showUntrackedFiles no
 ### Misc.
 - [SourceTree](https://www.sourcetreeapp.com): Git client
 - [Rambox](https://github.com/saenzramiro/rambox): Open Source mini-browser for combining messengers
+
+# Acknowledgement
+- Dotfile management method from [this article](https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/)
