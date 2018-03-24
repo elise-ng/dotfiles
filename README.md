@@ -59,12 +59,15 @@ dotfiles config --local status.showUntrackedFiles no
 - [DB Browser for SQLite](https://github.com/sqlitebrowser/sqlitebrowser): SQLite browser
 - [Iconizer](https://github.com/raphaelhanneken/iconizer): Xcode image assets generator
 ### Backend Dev
+- [Clipped](https://github.com/clippedjs/clipped): Configure Node projects, build docker images and more
 - [Postman](https://www.getpostman.com): Web api testing / documentation
 - [Sequel Pro](https://github.com/sequelpro/sequelpro): MySQL browser
 - [PSequel](http://www.psequel.com): PostgreSQL browser
 ### Misc.
 - [SourceTree](https://www.sourcetreeapp.com): Git client
 - [Rambox](https://github.com/saenzramiro/rambox): Open Source mini-browser for combining messengers
+- [git-standup](https://github.com/kamranahmedse/git-standup): List commit history for standup meetings
+- [gifify](https://github.com/vvo/gifify): CLI video to gif converter
 
 ## Acknowledgement
 - Dotfile management method from [this article](https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/)
