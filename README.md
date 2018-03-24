@@ -17,12 +17,16 @@
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 ### Text Editor
 - [Atom](https://github.com/atom/atom): RIP Sublime Text
-    - minimap: map on right hand side like sublime
+    - minimap: code map as scroll bar like sublime
     - linter: don't ever code without linting
-    - atom-ternjs: Autocomplete provider for js
+    - atom-ternjs: Autocomplete for js
+    - autocomplete-modules: Autocomplete for js require/import
+    - autocomplete-json
+    - pigments: show colors from hex
     - atom-beautify: just in case
     - file-icons
-    - script
+    - fonts
+    - highlight-selected
 ### iOS Dev
 - [Xcode](https://developer.apple.com/xcode/): duh...
 - [SimSim](https://github.com/dsmelov/simsim): Shortcuts for managing iOS simulators
