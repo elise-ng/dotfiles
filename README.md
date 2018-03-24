@@ -29,7 +29,7 @@
     - highlight-selected
 ### iOS Dev
 - [Xcode](https://developer.apple.com/xcode/): duh...
-- [SimSim](https://github.com/dsmelov/simsim): Shortcuts for managing iOS simulators
+- [SimSim](https://github.com/dsmelov/simsim): Open / clear iOS simulator files easily
 - [DB Browser for SQLite](https://github.com/sqlitebrowser/sqlitebrowser): SQLite browser
 - [Iconizer](https://github.com/raphaelhanneken/iconizer): Xcode image assets generator
 ### Backend Dev
