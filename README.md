@@ -70,6 +70,7 @@ dotfiles config --local status.showUntrackedFiles no
 - [Rambox](https://github.com/saenzramiro/rambox): Open Source mini-browser for combining messengers
 - [git-standup](https://github.com/kamranahmedse/git-standup): List commit history for standup meetings
 - [gifify](https://github.com/vvo/gifify): CLI video to gif converter
+- [iStats](https://github.com/Chris911/iStats): Hardware Stats for macOS
 
 ## Acknowledgement
 - Dotfile management method from [this article](https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/)
