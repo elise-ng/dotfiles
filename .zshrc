@@ -104,3 +104,6 @@ export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=4'
 
 # dotfiles backup
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
+# flushdns
+alias flushdns='sudo killall -HUP mDNSResponder; sudo killall mDNSResponderHelper; sudo dscacheutil -flushcache'
