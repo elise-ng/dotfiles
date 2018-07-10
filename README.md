@@ -26,12 +26,6 @@ dotfiles checkout
 dotfiles config --local status.showUntrackedFiles no
 ```
 
-## My Setup
-- MacBook Pro 15" 2016
-    - macOS High Sierra (10.13.x)
-- HHKB Pro 2
-- Logitech G502
-
 ## Tools I use
 ### Terminal
 - [iTerm2](https://github.com/gnachman/iTerm2): The new default terminal for macOS
