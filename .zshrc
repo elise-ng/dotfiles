@@ -96,7 +96,7 @@ export NVM_DIR="$HOME/.nvm"
 . "/usr/local/opt/nvm/nvm.sh"
 
 # syntax highlighting
-source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # auto suggestion
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
