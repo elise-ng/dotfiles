@@ -67,7 +67,7 @@ dotfiles config --local status.showUntrackedFiles no
 - [PSequel](http://www.psequel.com): PostgreSQL browser
 ### Misc.
 - [SourceTree](https://www.sourcetreeapp.com): Git client
-- ~[Rambox](https://github.com/saenzramiro/rambox): Open Source mini-browser for combining messengers~
+- ~[Rambox](https://github.com/saenzramiro/rambox): Open Source mini-browser for combining messengers~ Franz is now opensource
 - [Franz](https://github.com/meetfranz/franz): Like Rambox but more beautiful
 - [git-standup](https://github.com/kamranahmedse/git-standup): List commit history for standup meetings
 - [gifify](https://github.com/vvo/gifify): CLI video to gif converter
