@@ -107,3 +107,6 @@ alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 # flushdns
 alias flushdns='sudo killall -HUP mDNSResponder; sudo killall mDNSResponderHelper; sudo dscacheutil -flushcache'
+
+# resetwifi
+alias resetwifi='sudo ifconfig en0 down && sudo ifconfig en0 up && ifconfig -u en0'
