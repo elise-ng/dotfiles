@@ -88,6 +88,9 @@ export LANG=en_US.UTF-8
 # For hiding user name in zsh
 export DEFAULT_USER="chihim"
 
+# homebrew
+export PATH="/usr/local/sbin:$PATH"
+
 # iterm2
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
@@ -110,3 +113,7 @@ alias flushdns='sudo killall -HUP mDNSResponder; sudo killall mDNSResponderHelpe
 
 # resetwifi
 alias resetwifi='sudo ifconfig en0 down && sudo ifconfig en0 up && ifconfig -u en0'
+
+# use cloudflare dns for all network interfaces
+alias setdns='networksetup -listallnetworkservices 2>/dev/null | grep -v "*" | while read x; do; networksetup -setdnsservers "$x" 1.1.1.1 1.0.0.1 2606:4700:4700::1111 2606:4700:4700::1001; done'
+alias resetdns='networksetup -listallnetworkservices 2>/dev/null | grep -v "*" | while read x; do; networksetup -setdnsservers "$x" empty; done'
