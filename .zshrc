@@ -112,7 +112,7 @@ alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias flushdns='sudo killall -HUP mDNSResponder; sudo killall mDNSResponderHelper; sudo dscacheutil -flushcache'
 
 # resetwifi
-alias resetwifi='sudo ifconfig en0 down && sudo ifconfig en0 up && ifconfig -u en0'
+alias resetwifi='sudo ifconfig en0 down && sleep 5 && sudo ifconfig en0 up'
 
 # use cloudflare dns for all network interfaces
 alias setdns1111='networksetup -listallnetworkservices 2>/dev/null | grep -v "*" | while read x; do; networksetup -setdnsservers "$x" 1.1.1.1 1.0.0.1 2606:4700:4700::1111 2606:4700:4700::1001; done'
