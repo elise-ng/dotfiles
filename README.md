@@ -27,7 +27,7 @@ dotfiles config --local status.showUntrackedFiles no
 ```
 
 ## Tools I use
-### Stuff apple should have implemented in macOS
+### Stuff Apple should have implemented in macOS
 - [Magnet](https://itunes.apple.com/us/app/magnet/id441258766?mt=12): Windows snapping
 - [ScreenshotMenu](https://itunes.apple.com/us/app/screenshotmenu/id562169322?mt=12): Take screenshots without memorizing the stupid keyboard shortcut
 - [SensibleSideButtons](https://github.com/archagon/sensible-side-buttons): Enable forward and backward mouse buttons
