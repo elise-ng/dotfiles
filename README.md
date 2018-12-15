@@ -40,7 +40,7 @@ dotfiles config --local status.showUntrackedFiles no
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 ### Text Editor
-- [VS Code](https://github.com/Microsoft/vscode): Moved to vs code from atom recently, still figuring it out...
+- [VS Code](https://github.com/Microsoft/vscode): Moved from atom recently, still figuring it out...
     - Color: Atom One Dark
     - Font: DejaVu Sans Mono, 12pt
 ### iOS Dev
