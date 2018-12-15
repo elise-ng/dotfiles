@@ -33,7 +33,7 @@ dotfiles config --local status.showUntrackedFiles no
 - [SensibleSideButtons](https://github.com/archagon/sensible-side-buttons): Enable forward and backward mouse buttons
 ### Terminal
 - [iTerm2](https://github.com/gnachman/iTerm2): The new default terminal for macOS
-    - Color: [A Port of Atom One Dark](https://github.com/nathanbuchar/atom-one-dark-terminal)
+    - Color: [Port of Atom One Dark](https://github.com/nathanbuchar/atom-one-dark-terminal)
     - Font: DejaVu Sans Mono, 12pt
 - [zsh](http://www.zsh.org)
 - [Oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
