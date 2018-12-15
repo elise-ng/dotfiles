@@ -61,6 +61,7 @@ dotfiles config --local status.showUntrackedFiles no
 - [git-standup](https://github.com/kamranahmedse/git-standup): List commit history for standup meetings
 - [gifify](https://github.com/vvo/gifify): CLI video to gif converter
 - [iStats](https://github.com/Chris911/iStats): Hardware Stats for macOS
+- [LyricsX](https://github.com/ddddxxx/LyricsX): Open source lyrics app that support bilingual and touch bar
 
 ## Acknowledgement
 - Dotfile management method from [this article](https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/)
