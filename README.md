@@ -56,12 +56,12 @@ dotfiles config --local status.showUntrackedFiles no
 - [PSequel](http://www.psequel.com): PostgreSQL browser
 ### Misc.
 - [SourceTree](https://www.sourcetreeapp.com): Git client
-- ~[Rambox](https://github.com/saenzramiro/rambox): Open Source mini-browser for combining messengers~ Franz is now open source
-- [Franz](https://github.com/meetfranz/franz): Like Rambox but more beautiful
+- [Franz](https://github.com/meetfranz/franz): All-in-one message app (basically just a mini chrome)
 - [git-standup](https://github.com/kamranahmedse/git-standup): List commit history for standup meetings
 - [gifify](https://github.com/vvo/gifify): CLI video to gif converter
 - [iStats](https://github.com/Chris911/iStats): Hardware sensor readouts for mac
 - [LyricsX](https://github.com/ddddxxx/LyricsX): Open source lyrics app that support bilingual and touch bar
+- [Hex Field](https://github.com/ridiculousfish/HexFiend): Binary file editor, just in case
 
 ## Acknowledgement
 - Dotfile management method from [this article](https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/)
