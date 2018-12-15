@@ -55,7 +55,7 @@ dotfiles config --local status.showUntrackedFiles no
 - [Sequel Pro](https://github.com/sequelpro/sequelpro): MySQL browser
 - [PSequel](http://www.psequel.com): PostgreSQL browser
 ### Misc.
-- [SourceTree](https://www.sourcetreeapp.com): Git client
+- [SourceTree](https://www.sourcetreeapp.com): GUI git client that doesn't suck
 - [Franz](https://github.com/meetfranz/franz): All-in-one message app (basically just a mini chrome)
 - [git-standup](https://github.com/kamranahmedse/git-standup): List commit history for standup meetings
 - [gifify](https://github.com/vvo/gifify): CLI video to gif converter
