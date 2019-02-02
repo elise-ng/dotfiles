@@ -41,8 +41,8 @@ dotfiles config --local status.showUntrackedFiles no
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 ### Text Editor
 - [VS Code](https://github.com/Microsoft/vscode): Moved from atom recently, still figuring it out...
-    - Color: Atom One Dark
-    - Font: DejaVu Sans Mono, 12pt
+    - Color: One Dark Pro
+    - Font: SF Mono, 12pt, weight 500
 ### iOS Dev
 - [Xcode](https://developer.apple.com/xcode/): duh...
     - Theme: Default Dark
