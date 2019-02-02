@@ -3,7 +3,7 @@
 	email = chihimng.io@gmail.com
 [core]
 	excludesfile = /Users/chihim/.gitignore_global
-	editor = atom --wait
+	editor = code
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
