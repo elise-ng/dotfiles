@@ -152,3 +152,7 @@ eval "$(hub alias -s)"
 
 # default use python3
 alias python='python3'
+
+# egpu
+alias disabletb='sudo kextunload /System/Library/Extensions/AppleThunderboltPCIAdapters.kext/Contents/PlugIns/AppleThunderboltPCIUpAdapter.kext/'
+alias enabletb='sudo kextload /System/Library/Extensions/AppleThunderboltPCIAdapters.kext/Contents/PlugIns/AppleThunderboltPCIUpAdapter.kext/'
