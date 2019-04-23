@@ -12,3 +12,6 @@
 	trustExitCode = true
 [commit]
 	template = /Users/chihim/.stCommitMsg
+[alias]
+	yoink = pull
+	yeet = push
