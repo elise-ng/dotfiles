@@ -163,3 +163,7 @@ alias enabletb='sudo kextload /System/Library/Extensions/AppleThunderboltPCIAdap
 
 # record xcode simulator
 alias recordxcsim='xcrun simctl io booted recordVideo simulator_recording.mp4'
+
+# pia vpn
+alias stopvpn='piactl disconnect'
+alias startvpn='piactl connect'
