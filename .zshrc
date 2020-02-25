@@ -129,24 +129,6 @@ alias setdnsempty='networksetup -listallnetworkservices 2>/dev/null | grep -v "*
 # flutter
 export PATH="$PATH:/usr/local/share/flutter/bin"
 
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/Users/chihim/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/Users/chihim/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/Users/chihim/anaconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/Users/chihim/anaconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-
-# deactivate conda on start
-conda deactivate
-
 # github cli
 eval "$(hub alias -s)"
 
@@ -154,8 +136,8 @@ eval "$(hub alias -s)"
 alias python='python3'
 
 # egpu
-alias disabletb='sudo kextunload /System/Library/Extensions/AppleThunderboltPCIAdapters.kext/Contents/PlugIns/AppleThunderboltPCIUpAdapter.kext/'
-alias enabletb='sudo kextload /System/Library/Extensions/AppleThunderboltPCIAdapters.kext/Contents/PlugIns/AppleThunderboltPCIUpAdapter.kext/'
+alias stopegpu='sudo SafeEjectGPU Eject && sudo kextunload /System/Library/Extensions/AppleThunderboltPCIAdapters.kext/Contents/PlugIns/AppleThunderboltPCIUpAdapter.kext/'
+alias startegpu='sudo kextload /System/Library/Extensions/AppleThunderboltPCIAdapters.kext/Contents/PlugIns/AppleThunderboltPCIUpAdapter.kext/'
 
 # tabtab source for slss package
 # uninstall by removing these lines or running `tabtab uninstall slss`
