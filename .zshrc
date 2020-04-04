@@ -115,7 +115,7 @@ alias flushdns='sudo killall -HUP mDNSResponder; sudo killall mDNSResponderHelpe
 alias resetwifi='sudo ifconfig en0 down && sleep 5 && sudo ifconfig en0 up'
 
 # use cloudflare dns for all network interfaces
-alias setdns1111='networksetup -listallnetworkservices 2>/dev/null | grep -v "*" | while read x; do; networksetup -setdnsservers "$x" 1.1.1.1 1.0.0.1 2606:4700:4700::1111 2606:4700:4700::1001; done'
+alias setdns1111='networksetup -listallnetworkservices 2>/dev/null | grep -v "*" | while read x; do; networksetup -setdnsservers "$x" 1.1.1.2 1.0.0.2 2606:4700:4700::1112 2606:4700:4700::1002; done'
 alias setdnslocal='networksetup -listallnetworkservices 2>/dev/null | grep -v "*" | while read x; do; networksetup -setdnsservers "$x" 127.0.0.1; done'
 alias setdnsempty='networksetup -listallnetworkservices 2>/dev/null | grep -v "*" | while read x; do; networksetup -setdnsservers "$x" empty; done'
 
