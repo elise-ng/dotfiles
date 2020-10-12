@@ -1,15 +1,10 @@
-[user]
-	name = Elliot Ng
-	email = chihimng.io@gmail.com
+[includeIf "gitdir:~/Development/_Personal/"]
+	path = .gitconfig_personal
+[includeIf "gitdir:~/Development/_Oursky/"]
+	path = .gitconfig_oursky
 [core]
 	excludesfile = /Users/chihim/.gitignore_global
 	editor = code
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-[mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
 [commit]
 	template = /Users/chihim/.stCommitMsg
 [alias]
