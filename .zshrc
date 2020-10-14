@@ -148,10 +148,6 @@ alias startegpu='sudo kextload /System/Library/Extensions/AppleThunderboltPCIAda
 # record xcode simulator
 alias recordxcsim='xcrun simctl io booted recordVideo simulator_recording.mp4'
 
-# pia vpn
-alias stopvpn='piactl disconnect'
-alias startvpn='piactl connect'
-
 # kubectl
 [[ $commands[kubectl] ]] && source <(kubectl completion zsh)
 export KUBE_EDITOR="nano"
