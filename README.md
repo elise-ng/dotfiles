@@ -49,16 +49,19 @@ dotfiles config --local status.showUntrackedFiles no
 - [SimSim](https://github.com/dsmelov/simsim): Open / clear iOS simulator files easily
 - [DB Browser for SQLite](https://github.com/sqlitebrowser/sqlitebrowser): SQLite browser
 - [Iconizer](https://github.com/raphaelhanneken/iconizer): Xcode image assets generator
+### Flutter Dev
+- [Android Studio](https://developer.android.com/studio): IDE
 ### Backend Dev
 - [Clipped](https://github.com/clippedjs/clipped): Configure Node projects, build docker images and more
 - [Postman](https://www.getpostman.com): Web api testing / documentation
-- [Sequel Pro](https://github.com/sequelpro/sequelpro): MySQL browser
-- [PSequel](http://www.psequel.com): PostgreSQL browser
+- ~~[Sequel Pro](https://github.com/sequelpro/sequelpro): MySQL browser~~
+- ~~[PSequel](http://www.psequel.com): PostgreSQL browser~~
+- [DataGrip](https://www.jetbrains.com/datagrip/) DB IDE that works with anything
 ### Misc.
-- [SourceTree](https://www.sourcetreeapp.com): GUI git client that doesn't suck
+- ~~[SourceTree](https://www.sourcetreeapp.com): GUI git client that doesn't suck~~
+- [Fork](https://git-fork.com) GUI git client that doesn't need to you sign up an account
 - [Franz](https://github.com/meetfranz/franz): All-in-one message app (basically just a mini chrome)
 - [git-standup](https://github.com/kamranahmedse/git-standup): List commit history for standup meetings
-- [gifify](https://github.com/vvo/gifify): CLI video to gif converter
 - [iStats](https://github.com/Chris911/iStats): Hardware sensor readouts for mac
 - [LyricsX](https://github.com/ddddxxx/LyricsX): Open source lyrics app that support bilingual and touch bar
 - [Hex Field](https://github.com/ridiculousfish/HexFiend): Binary file editor, just in case
