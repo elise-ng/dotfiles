@@ -151,3 +151,14 @@ alias recordxcsim='xcrun simctl io booted recordVideo simulator_recording.mp4'
 # kubectl
 [[ $commands[kubectl] ]] && source <(kubectl completion zsh)
 export KUBE_EDITOR="nano"
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/chihim/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/chihim/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/chihim/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/chihim/google-cloud-sdk/completion.zsh.inc'; fi
+
+# Android sdk
+export ANDROID_SDK_ROOT="$HOME/Library/Android/sdk"
+export PATH="$ANDROID_SDK_ROOT/tools:$ANDROID_SDK_ROOT/tools/bin:$ANDROID_SDK_ROOT/platform-tools:$PATH"
+
