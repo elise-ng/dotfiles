@@ -7,6 +7,8 @@
 	editor = code
 [commit]
 	template = /Users/chihim/.stCommitMsg
+[gpg]
+	program = /usr/local/bin/gpg
 [alias]
 	yoink = pull
 	yeet = push
