@@ -131,9 +131,6 @@ alias setdnsempty='networksetup -listallnetworkservices 2>/dev/null | grep -v "*
 # flutter
 export PATH="$PATH:/usr/local/share/flutter/bin"
 
-# github cli
-eval "$(hub alias -s)"
-
 # default use python3
 alias python='python3'
 
