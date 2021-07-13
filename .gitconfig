@@ -12,3 +12,5 @@
 [alias]
 	yoink = pull
 	yeet = push
+[diff "blackbox"]
+	textconv = gpg --use-agent -q --batch --decrypt
