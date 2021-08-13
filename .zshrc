@@ -163,3 +163,6 @@ start-rproxy() {
     echo "kubectl -n $1 port-forward deployment/rproxy 50022:2222" | xargs -I xxx osascript -e 'tell application "Terminal" to do script "xxx"'
     echo "until sleep 3 && ssh -i ~/.ssh/rproxy user@localhost -p 50022 -R 0.0.0.0:8080:127.0.0.1:$2; do echo try again; done" | xargs -I xxx osascript -e 'tell application "Terminal" to do script "xxx"'
 }
+
+# asdf
+. $HOME/.asdf/asdf.sh
