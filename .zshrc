@@ -73,6 +73,8 @@ export LANG=en_US.UTF-8
 #   export EDITOR='mvim'
 # fi
 
+export EDITOR=nano
+
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
