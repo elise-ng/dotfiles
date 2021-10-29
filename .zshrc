@@ -51,7 +51,10 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(z zsh-syntax-highlighting zsh-autosuggestions)
+plugins=(z zsh-syntax-highlighting zsh-autosuggestions ssh-agent)
+
+# ssh-agent plugin config
+zstyle :omz:plugins:ssh-agent lazy yes
 
 source $ZSH/oh-my-zsh.sh
 
