@@ -8,7 +8,7 @@
 [commit]
 	template = /Users/chihim/.stCommitMsg
 [gpg]
-	program = /usr/local/bin/gpg
+	program = /opt/homebrew/bin/gpg
 [alias]
 	yoink = pull
 	yeet = push
