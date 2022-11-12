@@ -42,7 +42,7 @@ echo "alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 ### Terminal
 
 - [iTerm2](https://github.com/gnachman/iTerm2): The new default terminal for macOS
-  - Color: [Port of Atom One Dark](https://github.com/nathanbuchar/atom-one-dark-terminal)
+  - Color: [Port of Atom One Dark](https://github.com/one-dark/iterm-one-dark-theme)
   - Font: DejaVu Sans Mono, 12pt
 - [zsh](http://www.zsh.org)
 - [Oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
