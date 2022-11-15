@@ -1,6 +1,6 @@
 [user]
-	name = Elliot Ng
-	email = elliotng@oursky.com
+	name = Elise Ng
+	email = elise@oursky.com
 	signingkey = 82BB9052
 [commit]
 	gpgsign = true
