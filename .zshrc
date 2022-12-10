@@ -60,8 +60,6 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-# export MANPATH="/usr/local/man:$MANPATH"
-
 # You may need to manually set your language environment
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
@@ -93,16 +91,8 @@ export EDITOR=nano
 # For hiding user name in zsh
 export DEFAULT_USER="elise"
 
-# homebrew
-# export PATH="/usr/local/sbin:$PATH"
-
 # iterm2
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-
-# nvm
-# export NVM_DIR="$HOME/.nvm"
-# [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && . "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
-# [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && . "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
 # dotfiles backup
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
@@ -115,21 +105,12 @@ alias resetwifi='sudo ifconfig en0 down && sleep 5 && sudo ifconfig en0 up'
 
 # use cloudflare dns for all network interfaces
 alias setdns1111='networksetup -listallnetworkservices 2>/dev/null | grep -v "*" | while read x; do; networksetup -setdnsservers "$x" 1.1.1.1 1.0.0.1 2606:4700:4700::1111 2606:4700:4700::1001; done'
+alias setdns8888='networksetup -listallnetworkservices 2>/dev/null | grep -v "*" | while read x; do; networksetup -setdnsservers "$x" 8.8.8.8 8.8.4.4 2001:4860:4860::8888 2001:4860:4860::8844; done'
 alias setdnslocal='networksetup -listallnetworkservices 2>/dev/null | grep -v "*" | while read x; do; networksetup -setdnsservers "$x" 127.0.0.1; done'
 alias setdnsempty='networksetup -listallnetworkservices 2>/dev/null | grep -v "*" | while read x; do; networksetup -setdnsservers "$x" empty; done'
 
 # flutter
 export PATH="$PATH:/usr/local/share/flutter/bin"
-
-# default use python3
-alias python='python3'
-
-# egpu
-alias stopegpu='sudo SafeEjectGPU Eject && sudo kextunload /System/Library/Extensions/AppleThunderboltPCIAdapters.kext/Contents/PlugIns/AppleThunderboltPCIUpAdapter.kext/'
-alias startegpu='sudo kextload /System/Library/Extensions/AppleThunderboltPCIAdapters.kext/Contents/PlugIns/AppleThunderboltPCIUpAdapter.kext/'
-
-# record xcode simulator
-alias recordxcsim='xcrun simctl io booted recordVideo simulator_recording.mp4'
 
 # kubectl
 [[ $commands[kubectl] ]] && source <(kubectl completion zsh)
@@ -145,12 +126,6 @@ export PATH="$ANDROID_SDK_ROOT/tools:$ANDROID_SDK_ROOT/tools/bin:$ANDROID_SDK_RO
 
 # aws
 complete -C aws_completer aws
-
-# oursky rproxy
-start-rproxy() {
-    echo "kubectl -n $1 port-forward deployment/rproxy 50022:2222" | xargs -I xxx osascript -e 'tell application "Terminal" to do script "xxx"'
-    echo "until sleep 3 && ssh -i ~/.ssh/rproxy user@localhost -p 50022 -R 0.0.0.0:8080:127.0.0.1:$2; do echo try again; done" | xargs -I xxx osascript -e 'tell application "Terminal" to do script "xxx"'
-}
 
 # asdf
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
