@@ -3,10 +3,10 @@
 [includeIf "gitdir:~/Development/_Oursky/"]
 	path = .gitconfig_oursky
 [core]
-	excludesfile = /Users/chihim/.gitignore_global
+	excludesfile = /Users/elise/.gitignore_global
 	editor = code
 [commit]
-	template = /Users/chihim/.stCommitMsg
+	template = /Users/elise/.stCommitMsg
 [gpg]
 	program = /opt/homebrew/bin/gpg
 [alias]
