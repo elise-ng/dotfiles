@@ -1,6 +1,6 @@
 [user]
 	name = Elise Ng
 	email = elise@eliseng.com
-	signingkey = 82BB9052
+	signingkey = 500E8F2282BB9052
 [commit]
 	gpgsign = true

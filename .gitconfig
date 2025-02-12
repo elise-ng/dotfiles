@@ -1,10 +1,8 @@
 [includeIf "gitdir:~/Development/_Personal/"]
 	path = .gitconfig_personal
-[includeIf "gitdir:~/Development/_Oursky/"]
-	path = .gitconfig_oursky
 [core]
 	excludesfile = /Users/elise/.gitignore_global
-	editor = code
+	editor = nano
 [commit]
 	template = /Users/elise/.stCommitMsg
 [gpg]

@@ -92,7 +92,7 @@ export EDITOR=nano
 export DEFAULT_USER="elise"
 
 # iterm2
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+# test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 # dotfiles backup
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
@@ -129,3 +129,21 @@ complete -C aws_completer aws
 
 # asdf
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
+
+# azure
+autoload bashcompinit && bashcompinit
+source $(brew --prefix)/etc/bash_completion.d/az
+
+# tailscale
+alias tailscale='/Applications/Tailscale.app/Contents/MacOS/Tailscale'
+
+# Created by `pipx` on 2024-03-06 02:49:44
+export PATH="$PATH:/Users/elise/.local/bin"
+
+# asdf golang
+export GOPATH=$(asdf where golang)/packages
+export GOROOT=$(asdf where golang)/go
+export PATH="${PATH}:$(go env GOPATH)/bin"
+
+# migrate docker to podman
+alias docker=podman
