@@ -128,7 +128,7 @@ export PATH="$ANDROID_SDK_ROOT/tools:$ANDROID_SDK_ROOT/tools/bin:$ANDROID_SDK_RO
 complete -C aws_completer aws
 
 # asdf
-. /opt/homebrew/opt/asdf/libexec/asdf.sh
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 
 # azure
 autoload bashcompinit && bashcompinit
