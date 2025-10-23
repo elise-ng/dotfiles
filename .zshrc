@@ -145,5 +145,5 @@ export GOPATH=$(asdf where golang)/packages
 export GOROOT=$(asdf where golang)/go
 export PATH="${PATH}:$(go env GOPATH)/bin"
 
-# migrate docker to podman
+# docker -> podman
 alias docker=podman
