@@ -75,11 +75,11 @@ echo "alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 - [Postman](https://www.getpostman.com): Web api testing / documentation
 - ~~[Sequel Pro](https://github.com/sequelpro/sequelpro): MySQL browser~~
 - ~~[PSequel](http://www.psequel.com): PostgreSQL browser~~
-~~- [DataGrip](https://www.jetbrains.com/datagrip/): DB IDE that works with anything~~
+- ~~[DataGrip](https://www.jetbrains.com/datagrip/): DB IDE that works with anything~~
 - [TablePlus](https://tableplus.com): Looks nice and better data import function
 - [Cyberduck](https://cyberduck.io): S3 browser
 - [RedisInsight](https://redislabs.com/redis-enterprise/redis-insight/): Redis browser
-~~- [Lens](https://k8slens.dev): k8s IDE~~ corporate greed strikes again :(
+- ~~[Lens](https://k8slens.dev): k8s IDE~~ corporate greed strikes again :(
 - [k9s](https://k9scli.io/topics/install/): k8s TUI
 
 ### Misc
@@ -89,10 +89,10 @@ echo "alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 - [Franz](https://github.com/meetfranz/franz): All-in-one message app (basically just a mini chrome)
 - [git-standup](https://github.com/kamranahmedse/git-standup): List commit history for standup meetings
 - [iStats](https://github.com/Chris911/iStats): Hardware sensor readouts for mac
-~~- [LyricsX](https://github.com/ddddxxx/LyricsX): Open source lyrics app that support bilingual and touch bar~~
+- ~~[LyricsX](https://github.com/ddddxxx/LyricsX): Open source lyrics app that support bilingual and touch bar~~ Apple Music happened
 - [Hex Field](https://github.com/ridiculousfish/HexFiend): Binary file editor, just in case
 - [GPGTools](https://gpgtools.org)
-~~- [Keybase](https://keybase.io)~~
+- ~~[Keybase](https://keybase.io)~~
 
 ## Acknowledgement
 
