@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/elise/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -91,66 +91,54 @@ export EDITOR=nano
 # For hiding user name in zsh
 export DEFAULT_USER="elise"
 
-# iterm2
-# test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-
 # dotfiles backup
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
-# flushdns
-alias flushdns='sudo killall -HUP mDNSResponder; sudo killall mDNSResponderHelper; sudo dscacheutil -flushcache'
-
-# resetwifi
-alias resetwifi='sudo ifconfig en0 down && sleep 5 && sudo ifconfig en0 up'
-
-# use cloudflare dns for all network interfaces
-alias setdns1111='networksetup -listallnetworkservices 2>/dev/null | grep -v "*" | while read x; do; networksetup -setdnsservers "$x" 1.1.1.1 1.0.0.1 2606:4700:4700::1111 2606:4700:4700::1001; done'
-alias setdns8888='networksetup -listallnetworkservices 2>/dev/null | grep -v "*" | while read x; do; networksetup -setdnsservers "$x" 8.8.8.8 8.8.4.4 2001:4860:4860::8888 2001:4860:4860::8844; done'
-alias setdnslocal='networksetup -listallnetworkservices 2>/dev/null | grep -v "*" | while read x; do; networksetup -setdnsservers "$x" 127.0.0.1; done'
-alias setdnsempty='networksetup -listallnetworkservices 2>/dev/null | grep -v "*" | while read x; do; networksetup -setdnsservers "$x" empty; done'
-
 # flutter
-export PATH="$PATH:/usr/local/share/flutter/bin"
+#export PATH="$PATH:/usr/local/share/flutter/bin"
 
 # kubectl
 [[ $commands[kubectl] ]] && source <(kubectl completion zsh)
 export KUBE_EDITOR="nano"
 
 # Android sdk
-export ANDROID_SDK_ROOT="$HOME/Library/Android/sdk"
-export PATH="$ANDROID_SDK_ROOT/tools:$ANDROID_SDK_ROOT/tools/bin:$ANDROID_SDK_ROOT/platform-tools:$PATH"
+#export ANDROID_SDK_ROOT="$HOME/Library/Android/sdk"
+#export PATH="$ANDROID_SDK_ROOT/tools:$ANDROID_SDK_ROOT/tools/bin:$ANDROID_SDK_ROOT/platform-tools:$PATH"
 
 # gcloud
-[[ -f /opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc ]] && source /opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc
-[[ -f /opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc ]] && source /opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc
+#[[ -f /opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc ]] && source /opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc
+#[[ -f /opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc ]] && source /opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc
 
 # aws
-complete -C aws_completer aws
+#complete -C aws_completer aws
 
 # asdf
-export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
+#export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 
 # azure
-autoload bashcompinit && bashcompinit
-source $(brew --prefix)/etc/bash_completion.d/az
+#autoload bashcompinit && bashcompinit
+#source $(brew --prefix)/etc/bash_completion.d/az
 
 # tailscale
-alias tailscale='/Applications/Tailscale.app/Contents/MacOS/Tailscale'
+#alias tailscale='/Applications/Tailscale.app/Contents/MacOS/Tailscale'
 
 # Created by `pipx` on 2024-03-06 02:49:44
-export PATH="$PATH:/Users/elise/.local/bin"
+#export PATH="$PATH:/Users/elise/.local/bin"
 
 # asdf golang
-export GOPATH=$(asdf where golang)/packages
-export GOROOT=$(asdf where golang)/go
-export PATH="${PATH}:$(go env GOPATH)/bin"
+#export GOPATH=$(asdf where golang)/packages
+#export GOROOT=$(asdf where golang)/go
+#export PATH="${PATH}:$(go env GOPATH)/bin"
 
 # docker -> podman
 alias docker=podman
 
 # gpg -> ssh
-unset SSH_AGENT_PID
-if [ "${gnupg_SSH_AUTH_SOCK_by:-0}" -ne $$ ]; then
-  export SSH_AUTH_SOCK="${HOME}/.gnupg/S.gpg-agent.ssh"
-fi
-export GPG_TTY=$(tty)
+#unset SSH_AGENT_PID
+#if [ "${gnupg_SSH_AUTH_SOCK_by:-0}" -ne $$ ]; then
+#  export SSH_AUTH_SOCK="${HOME}/.gnupg/S.gpg-agent.ssh"
+#fi
+#export GPG_TTY=$(tty)
+
+# wsl ssh
+source ${HOME}/.local/bin/ssh-agent-pipe
