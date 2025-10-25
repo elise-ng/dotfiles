@@ -6,7 +6,7 @@
 [commit]
 	template = /Users/elise/.stCommitMsg
 [gpg]
-	program = /opt/homebrew/bin/gpg
+	program = /usr/local/bin/gpg
 [alias]
 	yoink = pull
 	yeet = push
@@ -14,3 +14,6 @@
 	textconv = gpg --use-agent -q --batch --decrypt
 [init]
 	defaultBranch = main
+[user]
+	email = elise@eliseng.com
+	name = Elise Ng
