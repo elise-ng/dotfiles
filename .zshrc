@@ -94,6 +94,9 @@ export DEFAULT_USER="elise"
 # dotfiles backup
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
+# brew
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
 # flutter
 #export PATH="$PATH:/usr/local/share/flutter/bin"
 
@@ -113,7 +116,7 @@ export KUBE_EDITOR="nano"
 #complete -C aws_completer aws
 
 # asdf
-#export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 
 # azure
 #autoload bashcompinit && bashcompinit
@@ -126,9 +129,9 @@ export KUBE_EDITOR="nano"
 #export PATH="$PATH:/Users/elise/.local/bin"
 
 # asdf golang
-#export GOPATH=$(asdf where golang)/packages
-#export GOROOT=$(asdf where golang)/go
-#export PATH="${PATH}:$(go env GOPATH)/bin"
+# export GOPATH=$(asdf where golang)/packages
+# export GOROOT=$(asdf where golang)/go
+# export PATH="${PATH}:$(go env GOPATH)/bin"
 
 # docker -> podman
 alias docker=podman
