@@ -1,10 +1,15 @@
-[includeIf "gitdir:~/Development/_Personal/"]
-	path = .gitconfig_personal
+#[includeIf "gitdir:~/Development/_Personal/"]
+#	path = .gitconfig_personal
+[user]
+        name = Elise Ng
+        email = elise@eliseng.com
+        signingkey = 500E8F2282BB9052
 [core]
 	excludesfile = /Users/elise/.gitignore_global
 	editor = nano
 [commit]
 	template = /Users/elise/.stCommitMsg
+	gpgsign = true
 [gpg]
 	program = /opt/homebrew/bin/gpg
 [alias]
