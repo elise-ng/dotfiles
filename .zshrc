@@ -95,7 +95,7 @@ export DEFAULT_USER="elise"
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 # brew
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+#eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 # flutter
 #export PATH="$PATH:/usr/local/share/flutter/bin"
@@ -137,11 +137,7 @@ export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 alias docker=podman
 
 # gpg -> ssh
-#unset SSH_AGENT_PID
-#if [ "${gnupg_SSH_AUTH_SOCK_by:-0}" -ne $$ ]; then
-#  export SSH_AUTH_SOCK="${HOME}/.gnupg/S.gpg-agent.ssh"
-#fi
-#export GPG_TTY=$(tty)
-
-# wsl ssh
-source ${HOME}/.local/bin/ssh-agent-pipe
+export GPG_TTY=$(tty)
+export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
+gpgconf --launch gpg-agent
+gpg-connect-agent updatestartuptty /bye > /dev/null
