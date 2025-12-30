@@ -1,7 +1,7 @@
 #[includeIf "gitdir:~/Development/_Personal/"]
 #	path = .gitconfig_personal
 [user]
-        name = Elise Ng
+	name = Elise Ng
         email = elise@eliseng.com
         signingkey = 500E8F2282BB9052
 [core]
