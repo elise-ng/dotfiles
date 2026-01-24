@@ -62,6 +62,7 @@ plugins=(z fzf extract zsh-syntax-highlighting zsh-autosuggestions ssh-agent)
 
 # ssh-agent plugin config
 zstyle :omz:plugins:ssh-agent lazy yes
+zstyle :omz:plugins:ssh-agent quiet yes
 
 source $ZSH/oh-my-zsh.sh
 
@@ -141,7 +142,7 @@ export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 # export PATH="${PATH}:$(go env GOPATH)/bin"
 
 # docker -> podman
-alias docker=podman
+# alias docker=podman
 
 # gpg -> ssh
 export GPG_TTY=$(tty)
@@ -151,3 +152,9 @@ gpg-connect-agent updatestartuptty /bye > /dev/null
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# Created by `pipx` on 2026-01-03 07:17:35
+export PATH="$PATH:/home/elise/.local/bin"
+
+# opencode
+export PATH=/home/elise/.opencode/bin:$PATH
