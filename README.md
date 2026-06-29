@@ -37,7 +37,7 @@ echo "alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 - ~~[Magnet](https://itunes.apple.com/us/app/magnet/id441258766?mt=12): Windows snapping~~
 - [Rectangle](https://github.com/rxhanson/Rectangle): Windows snapping open sourced
 - [ScreenshotMenu](https://itunes.apple.com/us/app/screenshotmenu/id562169322?mt=12): Take screenshots without memorizing the stupid keyboard shortcut
-- [SensibleSideButtons](https://github.com/archagon/sensible-side-buttons): Enable forward and backward mouse buttons
+- ~~[SensibleSideButtons](https://github.com/archagon/sensible-side-buttons)~~[SaneSideButtons](https://github.com/thealpa/SaneSideButtons): Enable forward and backward mouse buttons
 
 ### Terminal
 
